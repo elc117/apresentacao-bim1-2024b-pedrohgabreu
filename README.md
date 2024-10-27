@@ -44,3 +44,9 @@ Ao executar `map funq3 [1,2,3,4,5]`, ele retorna:
 - `3` é divisível por 3, então retorna `"Fizz"`.
 - `4` nada de especial, então mostra `"4"`.
 - `5` é divisível por 5, então retorna `"Buzz"`.
+
+
+#### Referências:
+- https://en.wikipedia.org/wiki/Fizz_buzz
+- https://github.com/AndreaInfUFSM/elc117-2024b/
+- https://www.haskell.org/documentation/
