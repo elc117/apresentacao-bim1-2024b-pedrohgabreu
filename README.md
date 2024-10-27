@@ -1,4 +1,4 @@
-### Função funq3 em Haskell - Questão 3 da Prova:
+## Função funq3 em Haskell - Questão 3 da Prova:
 
 *Fizz buzz* é um jogo de palavras em grupo para crianças, para ensiná-las sobre divisão. Os jogadores se revezam para contar de forma incremental, substituindo qualquer número divisível por três pela palavra "fizz", e qualquer número divisível por cinco pela palavra "buzz" e qualquer número divisível por três e cinco pela palavra "fizzbuzz".
 
@@ -10,15 +10,15 @@ A função funq3 é um clássico exemplo de FizzBuzz implementado em Haskell. A 
 - Para qualquer outro valor, apenas devolve o número como uma String.
 
   
-## Como a função funq3 funciona: 
+### Como a função funq3 funciona: 
 A função funq3 usa guardas (os | no código) para verificar as condições:
 
 funq3 :: Int -> String \
 funq3 n \
-    | mod n 15 == 0 = "FizzBuzz" \
-    | mod n 3  == 0 = "Fizz" \
-    | mod n 5  == 0 = "Buzz" \
-    | otherwise     = show n
+      | mod n 15 == 0 = "FizzBuzz" \
+      | mod n 3  == 0 = "Fizz" \
+      | mod n 5  == 0 = "Buzz" \
+      | otherwise     = show n
 
 
 **Explicando passo a passo:**
