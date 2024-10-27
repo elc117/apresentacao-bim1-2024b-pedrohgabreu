@@ -13,12 +13,13 @@ A função funq3 é um clássico exemplo de FizzBuzz implementado em Haskell. A 
 ## Como a função funq3 funciona: 
 A função funq3 usa guardas (os | no código) para verificar as condições:
 
-`funq3 :: Int -> String  
-funq3 n  
-    | mod n 15 == 0 = "FizzBuzz"  
-    | mod n 3  == 0 = "Fizz"  
-    | mod n 5  == 0 = "Buzz"  
-    | otherwise     = show n`  
+funq3 :: Int -> String
+funq3 n
+    | mod n 15 == 0 = "FizzBuzz"
+    | mod n 3  == 0 = "Fizz"
+    | mod n 5  == 0 = "Buzz"
+    | otherwise     = show n
+
 
 **Explicando passo a passo:**
 - mod n 15 == 0 → Se n for divisível por 15, retorna "FizzBuzz".
