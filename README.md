@@ -4,14 +4,7 @@
 
 A função `funq3` é um clássico exemplo de FizzBuzz implementado em Haskell. A ideia é retornar uma resposta dependendo do valor de `n`, e neste caso:
 
-- Se `n` for múltiplo de 15, retorna `"FizzBuzz"`.
-- Se `n` for múltiplo de 3, retorna `"Fizz"`.
-- Se `n` for múltiplo de 5, retorna `"Buzz"`.
-- Para qualquer outro valor, apenas devolve o número como uma `String`.
-
-### Como a função `funq3` funciona
-
-A função `funq3` usa guardas (os `|` no código) para verificar as condições:
+A função usa guardas (os `|` no código) para verificar as condições:
 
 ```
 funq3 :: Int -> String
